@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>PXL Pro</title>
+    <!-- Required meta tags -->
+    <meta charset='utf-8' />
+    <meta
+      name='viewport'
+      content='width=device-width, initial-scale=1, shrink-to-fit=no'
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel='stylesheet'
+      href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+      integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T'
+      crossorigin='anonymous'
+    />
+
+    <link rel='stylesheet' href='./bootstrap-grid.min.css'/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap' rel='stylesheet'/>
+    <link rel='stylesheet' href='./styles.css'/>
+    
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
+      integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
+      crossorigin='anonymous'
+    ></script>
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
+      integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1'
+      crossorigin='anonymous'
+    ></script>
+    <script
+      src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+      integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM'
+      crossorigin='anonymous'
+    ></script>
+    <header class='eyebrow-menu'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-12'>
+            <a href='#' class='float-left eyebrow-menu'>Visit PxlPro.com</a>
+            <div class='d-flex justify-content-end'>
+              <a href="#" class="sign-in eyebrow-menu">Sign in</a>
+              <a href="#" class='eyebrow-menu'>Create an account</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <nav id='navbar' class="navbar navbar-expand-md navbar-light">
+            <a href="/" class="navbar-brand"> <img src="./logo.png" class="img-fluid pxl-logo" alt="Pxl Pro logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a style='color:#434243;' class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                <a style='color:#434243;' class="nav-link" href="#">Find a job</a>
+                <a style='color:#434243;' class="nav-link" href="#">Careers advice</a>
+                <a style='color:#434243;' class="nav-link" href="#">Job alerts</a>
+                <a style='color:#434243;' class="nav-link" href="#">Your jobs</a>
+                <button id='ad-button' class="btn btn-primary nav-link">Advertise a job</button>
+              </div>
+            </div>
+          </nav>   
+        </div> 
+    </section>
+    <section class="hero">
+      <div class='search-bar-grey'></div>
+      <div class="container hero-container">        
+        <div class="row strapline-row align-items-center justify-content-center">
+          <div class='strapline'>
+            <h1 class='search-h2'>Search 1,570 jobs.</h1> 
+            <h2 class='search-h3'>Hundreds of new career opportunities each day. Find your perfect job.</h2>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='mw-100 dark-grey-opacity'>
+            <form class="search-position form-inline form-align-bottom form-row">
+              <label class="sr-only" for="keyword-search">Keyword search</label>
+              <input type="search" class="col-lg-3 col-md-4 col-sm-8 col-8 offset-2 form-control form-control-lg mb-2 mr-lg-5 mr-sm-2 ml-sm-4" id="keyword-search" placeholder="Keyword (e.g. Manager)">
+              <label class="sr-only" for="location-search">Location search</label>
+              <input type="search" class="col-lg-2 col-md-4 col-sm-8 col-8 offset-2 form-control form-control-lg mb-2 mr-lg-4 mr-sm-2 ml-md-0 ml-sm-4" id="location-search" placeholder="Location (e.g. Boston)">
+              <label class="sr-only" for="dropdown">Location dropdown</label>
+              <select class=" custom-select custom-select-lg col-lg-2 col-md-8 col-sm-8 col-8 offset-2 mr-lg-4 my-sm-1 mr-sm-2 ml-sm-4" id="dropdown">
+                <option selected>Within 10 miles</option>
+                <option value="1">Within 5 miles</option>
+                <option value="2">Within 20 miles</option>
+                <option value="3">Within 50 miles</option>
+              </select>          
+              <button type="submit" class="search-btn btn btn-primary btn-lg mb-2 col-lg-1 col-md-8 col-sm-8 col-8 offset-2 ml-sm-4 my-2">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='browse d-flex align-items-center'>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12 col-sm-12 d-flex align-items-center">
+          <div class='job-list-with-head'>
+            <div class='head-view d-flex flex-row justify-content-between'>
+              <h2 class='dark browse-h2'>Browse jobs by sector</h2>
+              <a class='browse-text-blue' href='#'>View all&raquo;</a>
+            </div>
+            <ul class='list-unstyled job-sector-list'> 
+                <li class='spaced-list'><a class='browse-text-blue' href="#">Accountancy & Finance</a>41</li>
+                <li class='spaced-list'><a class='browse-text-blue' href="#">Architecture, Building & Planning</a>71</li>
+                <li class='spaced-list'><a class='browse-text-blue' href="#">Art & Design</a>59</li>
+                <li class='spaced-list'><a class='browse-text-blue' href="#">Building & Construction</a>49</li>
+                <li class='spaced-list'><a class='browse-text-blue' href="#">Business Management</a>247</li>
+                <li class='spaced-list'><a class='browse-text-blue' href="#">Catering & Hospitality</a>14</li>
+                <li class='spaced-list'><a class='browse-text-blue' href="#">Computers & IT</a>55</li>
+                <li class='spaced-list'><a class='browse-text-blue' href=#>Education</a>  193</li>
+                <li class='spaced-list'><a class='browse-text-blue' href=#>Engineering</a>  47</li>
+                <li class='spaced-list'><a class='browse-text-blue' href=#>Media & Journalism</a>  123</li>
+                <li class='spaced-list'><a class='browse-text-blue' href=#>Retail & Wholesale</a>  100</li>
+                <li class='spaced-list'><a class='browse-text-blue' href=#>Sales</a>  29</li>
+                <li class='spaced-list'><a class='browse-text-blue' href=#>Sciences</a>  79</li>
+                <li class='spaced-list'><a class='browse-text-blue' href=#>Sports & Fitness</a>  72</li>
+              </ul>
+            
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class='feat-jobs-view d-flex flex-row justify-content-between'>
+            <h2 class='feat-jobs h2 browse-h2 '> Featured jobs</h2>
+            <a class='browse-text-blue' href='#'>View all jobs &raquo;</a>
+          </div>
+            <ul class="feat-jobs list-unstyled">
+                <li class="media feat-job-ad">
+                  
+                  <img class="img-fluid mr-3 feat-job-logo" src="./microsoft.png" alt="Microsoft logo">
+                  <div class="media-body feat-job-text">
+                      <a href='#'><h5 class="mt-0 mb-1 browse-text-blue">Business Systems Analyst</h5></a>
+                    <p class=' browse-text-grey'>New York City<br>$30,000 - $40,000</p>
+                  </div>
+                </li>
+                <li class="media my-4 feat-job-ad">
+                  <img class="img-fluid mr-3 feat-job-logo" src="./amex.png" alt="American Express">
+                  <div class="media-body feat-job-text">
+                    <a href='#'><h5 class="mt-0 mb-1 browse-text-blue">Paralegal Positions</h5></a>
+                    <p class=' browse-text-grey'>Newton, MA <br>
+                      Competitive salary</p>
+                  </div>
+                </li>
+                <li class="media feat-job-ad">
+                  <img class="img-fluid mr-3 feat-job-logo" src="./nasa.png" alt="Nasa logo">
+                  <div class="media-body feat-job-text">
+                    <a href='#'><h5 class="mt-0 mb-1 browse-text-blue">Operations Director</h5></a>
+                    <p class=' browse-text-grey'>Cape Canaveral, FL <br>
+                      Up to $100,000</p>
+                  </div>
+                </li>
+              </ul>             
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </section>
+  <section class='quick-actions d-flex align-items-center'>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-6 col-md-12 col-12">
+          <div class='quick-action-box d-flex flex-column justify-content-center'>
+            <img src="./icon_email.svg" alt="Envelope icon" />
+            <a href=#><h3 class='d-flex justify-content-center white twentyonepx pad20px quick-action-h3'>Get instant job alerts</h3>
+            <p class='d-flex text-center white fifteenpx pad20px quick-action-text'>Personalised job recommendations sent straight to your email.</p></a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+          <div class='quick-action-box d-flex flex-column justify-content-center'>
+            <img src="./icon_profile.svg" alt="Outline of person icon" />
+            <a href=#><h3 class='d-flex justify-content-center white twentyonepx pad20px quick-action-h3'>Create an account for free</h3>
+            <p class='d-flex text-center white fifteenpx pad20px quick-action-text'>Shortlist jobs, manage your job alerts and receive special offers.</p></a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-md-6 col-sm-6">
+          <div class='quick-action-box d-flex flex-column justify-content-center'>
+            <img src="./icon_upload.svg" alt="Upload icon" />
+            <a href='#'><h3 class='d-flex justify-content-center white twentyonepx pad20px quick-action-h3'>Upload your resume</h3>
+            <p class='d-flex text-center white fifteenpx pad20px quick-action-text'>Upload your resume so our employers can match your details to the best jobs.</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container feat-employers d-flex flex-column justify-content-center">
+      <div class="row">
+        <div class="col-lg-6 col-md-4 col-md-6 col-6">          
+          <h2 class="float-left feat-employers-h2">Featured employers</h2>            
+        </div>
+        <div class='col-lg-6 col-md-6 col-6'>
+          <a href="#" class="float-right feat-employers-text ">View all employers &raquo</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+          <a href='https://www.citigroup.com/citi/'><img 
+            class="img-fluid employer-img" 
+            src="./citi.png" 
+            alt="Citi logo" 
+            /></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+          <a href='#'><img
+            class="img-fluid employer-img"
+            src="./agstar.png"
+            alt="AgStar logo"
+          /> </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+          <a href='https://www.ford.co.uk/'><img class="img-fluid employer-img" 
+          src="./ford.png" 
+          alt="Ford logo" 
+          /></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+          <a href='https://ioxus.com/english/'><img
+            class="img-fluid employer-img"
+            src="./ioxus.png"
+            alt="Ioxus logo"
+          /></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+          <a href='https://www.nike.com'><img 
+            class="img-fluid employer-img" 
+            src="./nike.png" 
+            alt="Nike logo" 
+            /></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+          <a href='https://www.oracle.com/uk/index.html'><img
+            class="img-fluid employer-img"
+            src="./oracle.png"
+            alt="Oracle logo"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <section class="careers">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <a href='#'><img
+                class="img-fluid treehouse"
+                src="./mpu.png"
+                height="252px"
+                width="300px"
+                alt="Treehouse advert"
+              /></a>
+            </div>
+            
+            <div class="col-lg-8 col-md-12 col-12">
+              <div class='careers-advice d-flex flex-row align-items-end justify-content-between'>
+                <h2 class="articles-h2 margin-top-30px dark">Careers advice</h2>
+                <a href="#" class="articles-text">View all articles &raquo</a>
+              </div>  
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <img class='img-fluid margin-top-15px' src="./article1.png" alt="Woman holding smartphone" />
+                </div>
+                
+                <div class="col-lg-6 col-12">
+                  <a href='#'><h2 class='articles-h2-blue blue margin-top-15px articles-intro-head'>
+                    An introduction into ecommerce and the mobile revolution
+                  </h2>
+                  <p class='articles-text articles-text-grey dark article-intro-text'>
+                    There are many ways to market a product or a service and
+                    providing the potential clients and customers with testimonals
+                    is one of the best
+                  </p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-12">
+              <div class="advert">
+                <div class="advert-overlay d-flex flex-column justify-content-between">
+                  <h2 class='articles-h2 padbottom20px'>Advertise with us</h2>
+                  <ul class='padbottom20px'>
+                    <li class='articles-text'>Post jobs and monitor your applications</li>
+                    <li class='articles-text'>Search our extensive candidate database</li>
+                    <li class='padbottom20px articles-text'>Filter applications with screening questions</li>
+                  </ul>
+                  <button class="red articles-text btn btn-danger articles-button">Post a job</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-12">
+              <div class="row article-row">
+                <div class="col-lg-3 col-6">
+                  <img src="./article2.png" class="img-fluid" alt="Snowy mountain backdrop" />
+                  <a class='articles-text-blue bold' href="#">
+                    The pros and cons of taking a digital detox in the modern age
+                  </a>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <img src="./article3.png" class="img-fluid" alt="Glasses, mouse and closed laptop on table" />
+                  <a  class='articles-text-blue bold' href="#">
+                    Why should your company value user experience research?
+                  </a>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <img src="./article4.png" class="img-fluid" alt="Open laptop screen" />
+                  <a  class='articles-text-blue bold' href="#">
+                    We're in the age of big data. But it's what you do with it that matters
+                  </a>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <img src="./article5.png" class="img-fluid" alt="Woman working on laptop" />
+                  <a  class='articles-text-blue bold' href="#">
+                    Industry focus: A look inside Invision's studio in California
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  <section class='about-us d-flex align-items-center'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-xl-4 col-lg-6 col-md-6 col-12 d-flex justify-content-center'>
+          <div class='off-white about-us-box about-us-box1 d-flex flex-column justify-content-around'>
+            <h3 class='about-us-h3 dark pad20px'>About us</h3>
+            <p class='about-us-text pad20px' >Differentiate and you stand out in a crowded marketplace. Present your uniqueness and emphasize your rare attributes in your sales copy and promotions and you'll capture the imagination and interest of those you want to reach. In a world of copycats, it pays to be an original.  It's usually the creator of a new concept who gets the most</p>
+          </div>
+        </div>
+        <div class='col-xl-4 col-lg-6 col-md-6 col-12'>
+          <div class='light-blue download-box d-flex flex-row '>
+            <div class='app-text'>
+              <h3 class='about-us-h3 dark pad20px'> Download our new app</h3>
+              <p class='about-us-text pad20px'>Easily manage your job search on the go with our iPhone app. Instant job notifications. Search, shortlist and apply.</p>
+              <img class='pad20px app-store-logo img-fluid' src='./app-store.PNG' alt='Apple app store logo'/>
+            </div>
+            <div class='app-store d-flex align-items-center'>
+              <img class='pxl-app' alt='Smartphone showing PXLPro jobs app' src='./mobile-app.png'/>
+            </div>
+          </div>
+        </div>
+        <div class='col-xl-4 col-lg-12 col-md-12 col-12'>
+          <div class='off-white about-us-box feat-campaigns'>
+            <h3 class='about-us-h3 dark pad20px'>Featured campaigns</h3>
+            <ul>
+              <li class='blue padtop20'><a class='blue about-us-text-blue' href=#>Jobs in the United States</a></li>
+              <li class='blue'><a class='blue about-us-text-blue' href=#>Management jobs in New York</a></li>
+              <li class='blue'><a class='blue about-us-text-blue' href=#>Graduate jobs</a></li>
+              <li class='blue'><a class='blue about-us-text-blue' href=#>Engineering jobs in Chicago</a></li>
+              <li class='blue'><a class='blue about-us-text-blue' href=#>Jobs in California</a></li>
+            </ul>
+            <p class='pad20px'><a class='blue about-us-text-blue ' href=#>View more &raquo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class='footer'> 
+    <section>    
+      <div class='container'>
+        <div class='row top-footer'>
+          <div class='col-xl-12 col-lg-12 col-12 d-flex align-items-center'>
+            <ul class='footer-list d-flex flex-row justify-content-between'>
+              <li><a class='white footer-text' href='#'>Browse jobs</a></li>              
+                <li><a class='white footer-text' href='#'>Search employers</a></li>                
+                  <li><a class='white footer-text' href='#'>Terms & Conditions</a></li>                  
+                <li><a class='white footer-text' href='#'>Privacy</a></li> 
+                  <li><a class='white footer-text' href='#'>About us</a></li>
+                <li><a class='white footer-text' href='#'>Contact us</a></li>
+              </ul>
+            </div>
+        </div>
+    </section>
+    <section class='footer-line'>
+      <div class='container'>
+        <div class='row bottom-footer'>          
+          <div class='col-lg-12 col-12 d-flex flex-row justify-content-between align-items-center'>
+            <a href='https://www.madgex.com/uk/' ><p class='white footer-text-small' >&copy; 2016 Powered by Madgex</p></a>
+            <div class='social-media d-flex justify-content-between'>
+              <a href='#'><img class='social-media-img' src='Facebook.svg' alt='Facebook logo'></a>
+              <a href='#'><img class='social-media-img' src='Twitter.svg' alt='Twitter logo'></a>
+              <a href='#'><img class='social-media-img' src='GooglePlus.svg' alt='GooglePlus logo'></a>
+              <a href='#'><img class='social-media-img' src='LinkedIn.svg' alt='LinkedIn logo'></a>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>
+  </footer>  
+  </body>
+</html>

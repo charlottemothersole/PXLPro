@@ -1,0 +1,543 @@
+      /*html font size rem master*/
+      html {
+        font-size:62.5%;       
+      }
+
+      /*font family*/
+      h2, h3, h5, a, p, li, button {
+        font-family:"Montserrat", "sans-serif"!important;
+      }
+
+      /*EYEBROW MENU styles*/
+      .eyebrow-menu {
+        background-color: #0079c0;
+        color: #fff;
+        padding: 10px 0;
+        font-size: 1.3rem;        
+      }
+
+      .sign-in {
+        margin: 0 20px;
+      }
+      
+      /*NAV and LOGO*/
+      .pxl-logo {
+        height:125px;
+        width:205px;
+        padding:30px 0;        
+      }
+
+      .header {
+        height:110px; 
+      }
+
+      .nav-link {
+        font-size:1.6rem;
+        font-weight:bold;          
+        margin-left:20px;      
+      }
+
+      .nav-item {
+        color:#434243;  
+      }
+
+      #navbar {
+        padding-right:0px;
+      }
+
+      #ad-button {
+        background-color: #0079c0;
+        color:#fff;
+        padding:7px;
+      }
+
+      /*HEADER and SEARCH*/
+      .hero {
+        background: url("./hero.png") no-repeat;
+        background-size: cover;
+        height: 500px;
+        position:relative;
+      }
+
+      .hero-container {
+        height:50%;
+      }
+
+      .strapline-row {
+        height:100%;
+      }
+
+      .search-h2 {
+        color:#fff;
+        text-align: center;
+        font-size:4.8rem; 
+        padding:0 10px;       
+      }
+
+      .search-h3 {
+        color:#fff;
+        text-align: center;
+        font-size:2.1rem;
+        padding:0 10px;
+      }
+
+      .search-bar-grey {
+        height:120px;
+        width:100%;
+        background-color: rgba(67, 66, 67, 0.7);
+        position:absolute;
+        bottom:0px;        
+      }
+
+      .search-position {
+        position:absolute;
+        bottom:40px; 
+        width:100%;
+        
+      }
+
+      .search {
+        width: 380px;
+      }
+
+      .search-btn {
+        background-color:#F12E58;
+        border-color:#F12E58;
+      }
+
+      /*SEARCH media queries*/
+      @media only screen and (min-width:768px) and (max-width:992px) {
+        .search-bar-grey {
+          height:40%;
+        }
+      }
+
+      @media only screen and (max-width:768px) {
+        .search-bar-grey {
+          height:48%;
+        }
+      }
+
+      @media only screen and (min-width:991px) {
+        .hero-container {
+          height:75%;
+        }
+      }
+
+      /*BROWSE and FEAT-JOBS styles*/      
+      .browse {
+        background-color:#F0F0F0;
+        height:440px;
+        padding-top:40px;
+      }
+
+      .browse-h2 {
+        font-size:1.8rem;
+        font-weight:bold;
+      }
+
+      .browse-text-blue {
+        font-size:1.5rem;
+        color:#0079c0;
+      }
+
+      .browse-text-grey {
+        font-size:1.5rem;
+      }
+
+      .job-list-with-head {
+        width:100%;
+        padding:0 0 50px 0;
+      }
+
+      .job-sector-list {
+        column-count: 2;
+      }
+
+      .spaced-list {
+        padding:10px 0;
+        color:#ADADAD;
+      }
+
+      .spaced-list a {
+        padding-right: 10px; 
+      }
+
+      .feat-job-ad {
+        padding: 10px 0;
+      }
+
+      .feat-job-logo {
+        height:68px;
+      }
+      
+      /*BROWSE media queries*/
+      @media screen and (max-width: 992px) {
+        .browse {
+          height:980px;
+        }
+
+        .feat-jobs-view {
+          margin-top:0px;
+        }
+      }
+
+      @media only screen and (max-width:575px) {
+        .job-list-with-head {
+          padding:20px 0 0 50px;
+      }
+
+        .feat-jobs {
+          padding:0 0 20px 50px;
+        }
+
+        .feat-job-ad {
+          padding:0px;
+        }
+      }
+
+      /*QUICK ACTIONS styles*/
+      .quick-actions {
+        background: url('./cta-bg.png') no-repeat;
+        background-size:cover;
+        height:360px;
+      }
+
+      .quick-action-box {
+        background-color:rgba(67, 66, 67, 0.7);
+        color:#fff;
+        height:220px;
+        width:380px;        
+      }
+
+      .quick-action-h3 {
+        font-size:1.8rem;
+        font-weight:bold;
+        color:#fff;
+        padding-top:5px;
+      }
+
+      .quick-action-text {
+        font-size:1.5rem;
+        justify-content: center;
+        color:#fff;
+      }
+
+      /*QUICK ACTION media queries*/
+       @media screen and (min-width: 992px) and (max-width: 1180px) {
+        .quick-actions {
+          height:400px;          
+        }
+        .quick-action-box {
+          margin:10px 0;
+          height:200px;
+        }
+      } 
+
+      @media only screen and (max-width:576px) {
+        .quick-actions {          
+          height:700px;
+        }
+
+        .quick-action-box {
+          height: 150px;
+          width:100%;
+          margin:15px 0;          
+        }
+      }
+
+      @media only screen and (min-width:576px) and (max-width:992px) {
+        .quick-actions {          
+          height:500px;
+        }      
+      }
+
+      @media only screen and (max-width:1180px) {
+        .quick-action-box {
+          height: 150px;
+          width:100%;
+          margin:15px 0;          
+        }
+      }
+
+      /*FEAT EMPLOYERS styles*/
+      .feat-employers {
+        height:264px;
+      }
+
+      .feat-employers-h2 {
+        font-size:1.8rem;
+        font-weight:bold;
+      }
+
+      .feat-employers-text {
+        font-size:1.5rem;
+      }
+
+      .employer-img {
+        border:#F0F0F0 1px solid;
+        margin-top:20px;
+      }
+
+      /*FEAT EMPLOYERS media queries*/
+      @media only screen and (max-width:576px) {
+        .feat-employers {
+        height:550px;
+      }
+      }
+
+      @media only screen and (min-width:576px) and (max-width:992px) {
+        .feat-employers {
+          height:450px;
+        }
+      }
+
+      /*ARTICLES styles*/
+      .careers {
+        background-color: #f0f0f0;
+        padding: 70px 0;
+      }
+
+      .careers-advice {
+        margin-bottom:20px;
+      }
+
+      .advert {
+        color: #fff;
+        height:250px;
+        background: url("./advertise-bg.png") no-repeat;
+      }
+
+      .advert ul {
+        padding: 0 0 0 20px;
+      }
+
+      .advert-overlay {
+        padding: 20px;
+        background-color: rgba(67, 66, 67, 0.7);
+        height:250px;
+        max-width:381.6px;
+      }
+
+      .treehouse {
+        margin:0 30px 30px 30px;
+      }
+
+      .articles-h2 {
+        font-size:1.8rem;
+        font-weight:bold;        
+      }
+
+      .articles-h2-blue {
+        font-size:1.8rem;
+        font-weight:bold;
+        color:#0079c0;
+      }
+
+      .articles-text {
+        font-size:1.5rem;        
+      }
+
+      .articles-text-grey {
+        color:#434243;
+      }
+
+      .articles-text-blue {
+        color:#0079c0;
+        font-size:1.5rem;        
+      }
+
+      .article-row img {
+        display:block;
+        clear:both;
+      }
+
+      .bold {
+        font-weight:bold;
+      }
+
+      .articles-button {
+        width:35%;
+        background-color: #F12E58;
+      }
+
+      /*ARTICLES media queries*/
+      @media only screen and (max-width:991px) {
+        .treehouse {
+        margin: 0 0 20px 0;
+      }
+        .careers-advice {
+          margin: 0 0 20px 0
+      }
+        .articles-intro-head {
+          margin-top: 20px;
+          color:#0079c0;
+      }
+        .article-intro-text {
+          margin-bottom:20px;
+          color:#434243;
+        }
+        .advert {
+          margin-bottom:20px;
+        }
+      }
+
+      @media only screen and (min-width:992px) and (max-width:1180px) {
+        .treehouse {
+          margin:0 0 20px 0;
+        }
+      }
+
+      @media only screen and (min-width:768px) and (max-width:992px) {
+        .careers-advice {
+          width:80%;
+        }
+      }
+
+      /*ABOUT-US styles*/
+      .about-us {
+        margin:70px 0;
+      }
+
+      .about-us-box {
+        height:264px;
+        width:380px;
+        background-color:#f0f0f0;
+        padding:15px 20px 0 20px;
+      }
+
+      .download-box {
+        height:264px;
+        width:380px;
+        background-color:#E4F3FC;
+        padding:15px 0 0 15px;
+      }
+
+      .download-box p {
+        padding-top: 10px;
+      }
+
+      .about-us ul {
+        padding:0 0 0 15px;
+      }
+
+      .about-us li {
+        padding-top:10px;
+        color:#0079c0;
+      }
+    
+      .about-us-text {
+        font-size:1.5rem;
+        color:#434243;
+      }
+
+      .about-us-text-blue {
+        font-size:1.5rem;
+        color:#0079c0;
+      }
+
+      .about-us-h3 {
+        font-size:1.8rem;
+        font-weight:bold;
+        margin:0px;
+        color:#434243;
+      }
+
+      .app-store-logo {
+        height:50px;
+        margin-top:20px;
+      }
+
+      /*ABOUT US media queries*/
+      @media only screen and (max-width:767px) {
+        .about-us-box1 {
+        height:280px;
+        margin: 0 0 20px 0;
+        width:100%;
+      }
+      .pxl-app {
+        height:150px;
+      }
+
+      .download-box {
+        width:100%;
+        margin: 0 0 20px 0;
+      }
+      .feat-campaigns {
+        width:100%;        
+      }
+      }
+
+      @media only screen and (min-width:768px) and (max-width:1180px) {
+        .feat-campaigns {
+          margin-top:20px;
+          width:100%;
+        }
+
+        .about-us-box1 {
+          width:100%;
+        }
+
+        .download-box {
+          width:100%;
+        }
+      }
+
+      /*FOOTER styles*/
+      .footer {
+        background-color:rgba(67, 66, 67, 1);
+        height:161px;
+      }
+
+      .top-footer {
+        height:100px;
+      }
+
+      .footer-text {
+        color:#fff;
+        font-size:1.5rem;
+      }
+
+      .footer-text-small {
+        color:#fff;
+        font-size:1.3rem;
+      }
+
+      .footer-list {
+        list-style: none;
+        padding:0px;
+        width:60%;
+      }
+
+      .footer-line {
+        border-top:solid 1px white; 
+        background-color:rgba(67, 66, 67, 1);
+      }
+
+      .bottom-footer {
+        height:61px;
+      }
+
+      .social-media {
+        width:17%;
+      }
+
+      .social-media-img {
+        height:24px;
+      } 
+      
+      @media only screen and (max-width:1180px) {
+        .top-footer ul {
+          height:100%;
+          width:100%;  
+          padding-top:10px;      
+          display:flex;
+          flex-wrap:wrap;
+        }
+        .footer li {
+          width:30%;          
+        }
+        .social-media {
+          width:40%;
+        }
+      }      
